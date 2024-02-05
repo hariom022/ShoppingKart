@@ -1,0 +1,122 @@
+.cart-item{
+    margin: 81px auto;
+    width: 50%;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    .cart-item-header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        border-bottom: 2px solid black;
+
+        .cart-item-empty{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            font-weight: 700;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+       
+           
+
+     
+        
+    }
+    .cart-item-list{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left:5% ;
+        .cart-item-image{
+            height: 100px;
+            width: 100px;
+        }
+        .cat-item-name,.Cart-item-function{
+            width: 25%;
+        }
+        .cart-item-add,.cart-item-remove{
+            width: 30px;
+            margin-right: 15px;
+            font-weight: 700;
+            border: none;
+            border-radius: 3px;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+        }
+        .cart-item-add{
+            background-color: red;
+        }
+        .cart-item-remove{
+            background-color: green;
+        }
+        .cart-item-add:active{
+            transform: translateY(1.2px);
+        }
+        .cart-item-remove:active{
+            transform: translateY(1.2px);
+        }
+    }
+    .cart-item-total-price-name{
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 22%;
+        font-size: 20px;
+        font-weight: 700;
+        border-top:2px solid black ;
+
+        .cart-item-total-price{
+            display: flex;
+            padding-left: 45%;
+
+        }
+
+    }
+    .clear-button{
+        margin-right: 0px;
+        margin-left: 90%;
+        button{
+            color: white;
+        background-color: red;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 5px;
+
+
+        }
+        
+        
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 998px) {
+    .cart-item {
+        
+        margin-left: 154px;
+    }
+  }
+  // 481px — 768px
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .cart-item {
+        
+        margin-left: 251px;
+    }
+  }
+  @media only screen and (min-width: 280px) and (max-width: 480px) {
+    .cart-item{
+       
+        margin-left: 259px;
+    }
+  }
+
